@@ -5,10 +5,14 @@
   --button-color: #2196f3;
   --primary-white-color: #ffffff;
   --secondary-bg-color: #2f303a;
+  --secondary-btn-color: #f5f4fa;
+  --color-link: rgba(255, 255, 255, 0.6);
 }
 a {
   text-decoration: none;
 }
+
+/* file index.html */
 /* body style */
 .page {
   background-color: var(--primary-white-color);
@@ -23,7 +27,7 @@ a {
 .logo-footer {
   color: var(--primary-white-color);
 }
-
+/* haeder */
 /* style site-nav */
 .site-nav .link {
   color: var(--primary-text-color);
@@ -75,4 +79,21 @@ a {
 }
 .page-footer {
   background-color: var(--secondary-bg-color);
+}
+.footer-text {
+  color: var(--primary-white-color);
+}
+.footer-link {
+  color: var(--color-link);
+}
+/* file portfolio */
+.filters-btn {
+  background-color: var(--secondary-btn-color);
+}
+.filters-btn:hover,
+.filters-btn:focus {
+  background-color: var(--accent-color);
+}
+.text {
+  color: var(--second-text-color);
 }
