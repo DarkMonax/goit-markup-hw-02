@@ -94,6 +94,9 @@ a {
 .filters-btn:focus {
   background-color: var(--accent-color);
 }
+.primary-text {
+  color: var(--primary-text-color);
+}
 .text {
   color: var(--second-text-color);
 }
